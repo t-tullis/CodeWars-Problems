@@ -37,3 +37,14 @@
 // // }
 
 //   console.log(solution('abcde', 'cdea'))
+
+// Problem 3 "Sum smallest Numbers"
+
+// function sumTwoSmallestNumbers(numbers) {  
+//     //Code here
+//     let sortedNums = numbers.sort(function(a, b){return a - b})
+//     return sortedNums[0] + sortedNums[1]
+// }
+  
+
+//   console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]))
