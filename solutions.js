@@ -48,3 +48,16 @@
   
 
 //   console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22]))
+
+//Problem 4
+// function sortByLength (array) {
+//         // Return an array containing the same strings, ordered from shortest to longest
+//         let shortToLong = array.sort((a,b) => {
+//                 return a.length - b.length
+//         })
+
+//         return shortToLong
+// };
+
+//       console.log(sortByLength(["Telescopes", "Glasses", "Eyes", "Monocles"]))
+
