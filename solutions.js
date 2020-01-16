@@ -61,3 +61,19 @@
 
 //       console.log(sortByLength(["Telescopes", "Glasses", "Eyes", "Monocles"]))
 
+//Problem 5
+// function oddOrEven(array) {
+//   //enter code here
+//   let sum = 0;
+//   for(i = 0; i < array.length; i++){
+//       sum += array[i]
+//   }
+//   if(sum % 2 === 0){
+//           return 'even'
+//   }else{
+//           return 'odd'
+//   }
+// }
+
+// console.log(oddOrEven([2, 5, 34, 6]))
+
