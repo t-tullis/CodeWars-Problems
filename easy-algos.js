@@ -188,6 +188,20 @@ Explanation: 1200 + 34 = 1234
 
 // console.log(factorial(4))
 
+//Problem 13
+// function getSecondLargest(arr){
+//         let newArr = removeDuplicatesAndSort(arr)
+//         return newArr[newArr.length - 2]
+// }
+
+// function removeDuplicatesAndSort(array) {
+//         let filteredArr = array.filter((a, b) => array.indexOf(a) === b)
+//         return filteredArr.sort((a,b) => {return a - b})
+// };
+
+
+
+// console.log(getSecondLargest([2,3,6,6,5]))
 
 
 
