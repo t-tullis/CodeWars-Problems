@@ -172,6 +172,22 @@ Explanation: 1200 + 34 = 1234
 
 // console.log(rob([1,3,1]))
 
+//Problem 12
+// function factorial(num){
+//         //Base case if num <= 0 return 0
+//         if(num <= 0){
+//                 return 0
+//         }
+//         //If num is equal to 1 return 1
+//         if(num === 1){
+//                 return 1
+//         }
+//         console.log(num)
+//         return num * factorial(num - 1)
+// }
+
+// console.log(factorial(4))
+
 
 
 
