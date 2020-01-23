@@ -139,3 +139,17 @@ Explanation: 1200 + 34 = 1234
 
 // console.log(rotate([1,2,3,4,5,6,7], 3))
 
+//Problem 11 
+//Move Zeros to end of array in-place 
+// var moveZeroes = function(nums) {
+//     for(let i = 0; i < nums.length; i++){
+//             if(nums[i] === 0){
+//                     let index = nums.indexOf(nums[i])
+//                     let zero = nums.splice(index, 1)
+//                     nums.push(zero[0])
+//             }
+//     }
+//     return nums
+// };
+
+// console.log(moveZeroes([0,1,0,3,12]))
