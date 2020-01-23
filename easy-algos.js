@@ -153,3 +153,26 @@ Explanation: 1200 + 34 = 1234
 // };
 
 // console.log(moveZeroes([0,1,0,3,12]))
+
+//NOT DONE
+// var rob = function(nums) {
+//     if(nums.length === 1){
+//         return nums[0]
+//     }
+//     if(nums.length === 2){
+//         return Math.max(...nums)
+//     }
+
+// let money = 0;
+// for(let i = 0; i < nums.length; i+=2){
+//     money += nums[i]
+// }
+//     return money
+// };
+
+// console.log(rob([1,3,1]))
+
+
+
+
+
