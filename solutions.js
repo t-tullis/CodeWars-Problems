@@ -77,3 +77,85 @@
 
 // console.log(oddOrEven([2, 5, 34, 6]))
 
+//HR Sock Merchent Problem  
+
+//Per Wikipedia, a prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+// function sockMerchant(n, ar) {
+//         let pairs = 0; 
+//         let sortedAr = ar.sort(function(a,b){return a - b})
+//         console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n ${sortedAr}`)
+        
+//         for(let i = 0, j = 1; i <= sortedAr.length, j <= sortedAr.length; i += 2 , j += 2){
+//                 if(sortedAr[i] === sortedAr[j]){
+//                 console.log(`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n ${ar[i]}, ${ar[j]}`)   
+//                 pairs += 1
+//             }
+//         }
+//         return pairs
+//     }
+
+//     console.log(sockMerchant(20, [4,5,5,5,6,6,4,1,4,4,3,6,6,3,6,1,4,5,5,5]))
+
+//Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
+
+// var addStrings = function(num1, num2) {
+//         // let sum = Number(num1) + Number(num2)
+//         return num1 + num2
+//     };
+
+// console.log(addStrings(9333852702227987,85731737104263))
+
+// var containsDuplicate = function(nums) {
+//         if(nums.length <= 1 ){
+//                 return false
+//         }
+        
+//         let sortedNums = nums.sort(function(a,b) {return a - b})
+//         console.log(sortedNums)
+//         for(i = 0, j = 1; i < sortedNums.length, j < sortedNums.length; i+=1, j+=1){
+//                 if(sortedNums[i] === sortedNums[j]){
+//                         return true
+//                 }
+//         }
+//         return false
+// };
+
+// console.log(containsDuplicate([]))
+
+//Add digits until a single digit is formed 
+//ex: 38 
+//3 + 8 = 11 
+//1 + 1 = 2 
+//return 2
+
+// var search = function(nums, target) {
+//         for(let i = 0; i < nums.length; i++){
+//                 if(nums.includes(target)){
+//                         return nums.indexOf(target)
+//                 }
+//         }
+// };
+
+// console.log(search([-1,0,3,5,9,12], 9))
+
+// let twod = []
+// let rows = 5;
+
+// for(let i = 0; i < rows; i++){
+//         twod[i] = []
+//         console.log(twod[i])
+// }
+
+
+function zeros(dimensions) {
+        var array = [];
+    
+        for (var i = 0; i < dimensions[0]; ++i) {
+            array.push(dimensions.length == 1 ? 0 : zeros(dimensions.slice(1)));
+        }
+    
+        return array;
+    }
+
+    console.log(zeros([5, 3]))
