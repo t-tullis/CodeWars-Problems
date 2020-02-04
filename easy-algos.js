@@ -309,8 +309,8 @@ Explanation: 1200 + 34 = 1234
 
 //Problem 16 CODE SIGNAL
 // function adjacentElementsProduct(inputArray) {
-//         let largestSum = 0;
-//         for(let i = 0, j = 1; i < inputArray.length, j < inputArray.length; i++, j++){
+//         let largestSum = inputArray[0] * inputArray[1];
+//         for(let i = 1, j = 2; i < inputArray.length, j < inputArray.length; i++, j++){
 //                 if(largestSum < inputArray[i] * inputArray [j]){
 //                         largestSum = inputArray[i] * inputArray[j]
 //                 }
@@ -319,5 +319,18 @@ Explanation: 1200 + 34 = 1234
 // }
 
 // console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]))
+// console.log(adjacentElementsProduct([-23, 4, -3, 8, -12]))
 
+//problem 17
+//1  n = 1   4
+//2 n = 5    8 
+//3  n = 13 12 
+//4  n = 25 16
+// function shapeArea(n) {
+//         if(n === 1){
+//                 return 1
+//         }
+//         return n**2 + (n-1)**2
+// }
 
+// console.log(shapeArea(4))
