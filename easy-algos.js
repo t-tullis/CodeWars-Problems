@@ -203,6 +203,120 @@ Explanation: 1200 + 34 = 1234
 
 // console.log(getSecondLargest([2,3,6,6,5]))
 
+// function reverseString(s) {
+//         try{
+//             console.log(s.split('').reverse().join(''))
+//         }
+//         catch(ex){
+//                 console.log(ex.message)
+//         }
+//         finally{
+//                 console.log(s)
+//         }
+//     }
+
+//     reverseString(1234)
+
+// function isPositive(a) {
+//         try{
+//                 if(a === 0){
+//                         throw "Zero Error";
+//                 }    
+//                 if(a < 0){
+//                         throw "Negative Error";
+//                 }
+//                 return 'YES'
+//         }
+//         catch(error){
+//                 return error
+//         }
+// }
+
+//     console.log(isPositive(0))
+
+// function Rectangle(a, b) {
+//         let rectObj = {
+//             length: a,
+//             width: b,
+//             perimeter: a + a + b + b,
+//             area: a * b
+//         }
+//         return rectObj
+//     }
 
 
+//     Rectangle(4, 5)
+
+// function countObjs(objs){
+//         let count = 0;
+
+//         for(let i = 0; i < objs.length; i++){
+//                 if(objs[i].x === objs[i].y){
+//                         count++
+//                 }
+//         }
+//         return count
+// }
+
+// console.log(countObjs( [{x:1 , y:1}, {x:2, y:3},{x:3, y:3},{x: 3, y:4},{x:4, y:5}]))
+
+
+// class Polygon{
+//         constructor(sides){
+//             this.sides = sides
+//         }
+//  }
+
+//  let newPoly = new Polygon([2,3,5])
+
+//  let perimeter = 0;
+//  for(let i = 0; i < newPoly.sides.length; i++){
+//          perimeter += newPoly.sides[i]
+//  }
+
+//  console.log(perimeter)
+
+//Problem 14
+
+// var merge = function(nums1, m, nums2, n) {
+//         if(m + n <= nums1.length){
+//                 nums1.splice(m, n, ...nums2)
+//                 return nums1.sort((a , b) => { return a - b})
+//         }else{
+//                 return 'Not enough space'
+//         }
+// };
+
+// console.log(merge([1,2,3,0,0,0], 3, [2,5,6,3], 3))
+
+//Problem 15
+// var fizzBuzz = function(n) {
+//         let arr = []
+//         for(let i = 1; i <= n; i++){
+//                 if(i % 3 === 0 && i % 5 === 0){
+//                     arr.push("FizzBuzz")
+//                 }else if(i % 3 === 0){
+//                         arr.push("Fizz")
+//                 }else if(i % 5 === 0){
+//                         arr.push("Buzz")
+//                 }else{
+//                         arr.push(String(i))
+//                 }
+//         }
+//         return arr
+// };
+// console.log(fizzBuzz(15))
+
+//Problem 16 CODE SIGNAL
+// function adjacentElementsProduct(inputArray) {
+//         let largestSum = 0;
+//         for(let i = 0, j = 1; i < inputArray.length, j < inputArray.length; i++, j++){
+//                 if(largestSum < inputArray[i] * inputArray [j]){
+//                         largestSum = inputArray[i] * inputArray[j]
+//                 }
+//         }
+//         return largestSum
+// }
+
+// console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]))
 
