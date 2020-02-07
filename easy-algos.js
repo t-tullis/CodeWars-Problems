@@ -307,16 +307,6 @@ Explanation: 1200 + 34 = 1234
 // };
 // console.log(fizzBuzz(15))
 
-//Problem 16 CODE SIGNAL
-// function adjacentElementsProduct(inputArray) {
-//         let largestSum = 0;
-//         for(let i = 0, j = 1; i < inputArray.length, j < inputArray.length; i++, j++){
-//                 if(largestSum < inputArray[i] * inputArray [j]){
-//                         largestSum = inputArray[i] * inputArray[j]
-//                 }
-//         }
-//         return largestSum
-// }
 
-// console.log(adjacentElementsProduct([3, 6, -2, -5, 7, 3]))
+
 
