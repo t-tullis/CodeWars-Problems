@@ -334,3 +334,23 @@ Explanation: 1200 + 34 = 1234
 // }
 
 // console.log(shapeArea(4))
+//problem 18
+//Add 2 digit
+// function addTwoDigits(n) {
+//         let convertNum = String(n).split('')
+//         return Number(convertNum[0]) + Number(convertNum[1])
+// }
+
+// console.log(addTwoDigits(29))
+
+//problem 19
+// function largestNumber(n) {
+//         let largestNum = []
+//         for(i = 0; i < n; i++){
+//                 largestNum.push(9)
+//         }
+//         return Number(largestNum.join(''))
+// }
+
+// console.log(largestNumber(3))
+
