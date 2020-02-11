@@ -354,3 +354,21 @@ Explanation: 1200 + 34 = 1234
 
 // console.log(largestNumber(3))
 
+//problem 20
+// function candies(n, m) {
+//         let totalCandies = m / n
+//         return Math.floor(totalCandies) * n
+// }
+
+// console.log(candies(3, 10))
+
+// function linearSearch(arr, target){
+//         for(let i = 0; i < arr.length; i++){
+//                 if(arr[i] === target){
+//                         return i
+//                 }
+//         }
+//         return -1
+// }
+
+// console.log(linearSearch([1,10,9,2,3,7,4], 4))
