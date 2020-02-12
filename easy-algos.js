@@ -372,3 +372,17 @@ Explanation: 1200 + 34 = 1234
 // }
 
 // console.log(linearSearch([1,10,9,2,3,7,4], 4))
+//Problem 21
+// function findLongestWordLength(str) {
+//         let wordArr = str.split(' ')
+//         let longestWord = wordArr[0]
+//         for(let i = 0; i < wordArr.length; i++){
+//                 if(wordArr[i].length > longestWord.length){
+//                         longestWord = wordArr[i]
+//                 }
+//         }
+//         return longestWord.length;
+//       }
+
+//       console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"))
+
