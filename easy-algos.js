@@ -362,16 +362,6 @@ Explanation: 1200 + 34 = 1234
 
 // console.log(candies(3, 10))
 
-// function linearSearch(arr, target){
-//         for(let i = 0; i < arr.length; i++){
-//                 if(arr[i] === target){
-//                         return i
-//                 }
-//         }
-//         return -1
-// }
-
-// console.log(linearSearch([1,10,9,2,3,7,4], 4))
 //Problem 21
 // function findLongestWordLength(str) {
 //         let wordArr = str.split(' ')
@@ -398,37 +388,4 @@ Explanation: 1200 + 34 = 1234
       
 // console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
 
-//problem 23
-//Binary Search
-// function binarySearch(arr, elem) {
-//         var start = 0;
-//         var end = arr.length - 1;
-//         var middle = Math.floor((start + end) / 2);
-//         while(arr[middle] !== elem && start <= end) {
-//             if(elem < arr[middle]){
-//                 end = middle - 1;
-//             } else {
-//                 start = middle + 1;
-//             }
-//             middle = Math.floor((start + end) / 2);
-//         }
-//         if(arr[middle] === elem){
-//             return middle;
-//         }
-//         return -1;
-//     }
-    
-//     // Refactored Version
-//     function binarySearch(arr, elem) {
-//         var start = 0;
-//         var end = arr.length - 1;
-//         var middle = Math.floor((start + end) / 2);
-//         while(arr[middle] !== elem && start <= end) {
-//             if(elem < arr[middle]) end = middle - 1;
-//             else start = middle + 1;
-//             middle = Math.floor((start + end) / 2);
-//         }
-//         return arr[middle] === elem ? middle : -1;
-//     }
-    
-//     binarySearch([2,5,6,9,13,15,28,30], 103)
+
